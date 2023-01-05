@@ -1,0 +1,50 @@
+// Globals
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $main-font;
+    color: $dark-color;
+    font-size: 1.1vw;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+// Scrollbar
+
+// Mixins
+
+@mixin main-layout {
+    width: 75vw;
+    padding: 2vw;
+    margin: 0 auto;
+}
+
+@mixin main-theme {
+    color: $dark-color;
+    background-color: $light-color;
+    box-shadow: $main-shadow;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+// Responsive

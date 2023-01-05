@@ -1,0 +1,16 @@
+nav.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-grow: 1;
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 0 2vw;
+        }
+    }
+}

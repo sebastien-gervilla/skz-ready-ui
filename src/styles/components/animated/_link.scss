@@ -1,0 +1,24 @@
+a.animated {
+    position: relative;
+    color: $main-color;
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: -.15vw;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        background-color: $main-color;
+
+        transform: scale(0, 1);
+        transition: $main-transition;
+    }
+
+    &:hover::after {
+        transform: scale(1);
+        transition: $main-transition;
+    }
+}
