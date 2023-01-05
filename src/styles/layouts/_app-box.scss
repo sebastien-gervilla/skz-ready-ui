@@ -1,0 +1,8 @@
+.app-box {
+    @include main-theme;
+
+    &.box-row,
+    .box-row {
+        display: flex;
+    }
+}
