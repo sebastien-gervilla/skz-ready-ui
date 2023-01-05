@@ -25,6 +25,20 @@ a {
     text-decoration: none;
 }
 
+input, textarea, button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    font-family: unset;
+    font-size: .9vw;
+}
+
+button {
+    color: unset;
+    cursor: pointer;
+}
+
 // Scrollbar
 
 // Mixins
