@@ -1,0 +1,18 @@
+button.animated {
+    padding: .5vw 2vw;
+
+    color: $static-light-color;
+    border: 1px solid $main-color;
+    background-color: $main-color;
+
+    transition: $main-transition;
+
+    &:hover {
+        color: $main-color;
+        background-color: $light-color;
+
+        transition: $main-transition;
+    }
+
+    
+}

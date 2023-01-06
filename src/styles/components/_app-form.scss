@@ -1,0 +1,55 @@
+.app-form {
+    padding: 2vw;
+    flex-grow: 1;
+    
+    .form-input {
+        width: 100%;
+        margin: 1vw 0;
+
+        p {
+            margin-bottom: .5vw;
+
+            font-size: .8vw;
+            font-weight: 500;
+        }
+
+        input {
+            height: 2vw;
+            padding: .1vw .35vw;
+
+            border-bottom: 1px solid $gray-color;
+        }
+
+        textarea {
+            height: 8vw;
+            padding: .35vw .35vw;
+
+            border: 1px solid $gray-color;
+        }
+
+        input, textarea {
+            width: 100%;
+            resize: none;
+
+            transition: $main-transition;
+            &:hover {
+                border-color: $main-color;
+                transition: $main-transition;
+            }
+        }
+
+        &.submit {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    .form-input_row {
+        display: flex;
+        justify-content: space-between;
+
+        .form-input {
+            width: 47.5%;
+        }
+    }
+}

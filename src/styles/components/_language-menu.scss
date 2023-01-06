@@ -1,0 +1,21 @@
+.language-menu {
+    @include main-theme;
+    padding: .5vw;
+
+    .language button {
+        width: 100%;
+        padding: .5vw;
+
+        transition: $main-transition;
+
+        &:hover {
+            background-color: $light-gray-color;
+            transition: $main-transition;
+        }
+
+        &.current-language {
+            color: $static-light-color;
+            background-color: $main-color;
+        }
+    }
+}

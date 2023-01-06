@@ -4,12 +4,19 @@
 @import './settings';
 
 // Layouts
+@import './layouts/app-box';
+@import './layouts/app-page';
 
 // Pages
+@import './pages/contact-page';
 
 // Components
 @import './components/header';
 @import './components/navigation';
+@import './components/app-form';
+@import './components/contact-card';
+@import './components/language-menu';
 
 // Components - Animated
 @import './components/animated/link';
+@import './components/animated/button';

@@ -1,0 +1,73 @@
+.contact-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 40%;
+    min-height: 30vw;
+    padding: 2vw;
+
+    color: $static-light-color;
+    background-color: $main-color-darker;
+
+    .header {
+        h4 {
+            margin-bottom: 1vw;
+    
+            font-size: 1.7vw;
+            font-weight: 600;
+        }
+    }
+
+    .infos {
+        .row {
+            display: flex;
+
+            margin-bottom: 1.5vw;
+
+            svg {
+                width: 1.35vw;
+                height: 1.35vw;
+                margin-right: 1.5vw;
+            }
+        }
+    }
+
+    .socials {
+        display: flex;
+
+        button {
+            padding: .5vw;
+            margin-right: 2vw;
+
+            svg {
+                width: 1.5vw;
+                height: 1.5vw;
+
+                transition: $main-transition;
+            }
+
+            &:hover {
+                svg {
+                    transition: $main-transition;
+                    transform: translateY(-20%);
+                }
+            }
+        }
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        right: 0;
+        bottom: 0;
+
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 100% 0 0 0;
+        background-color: $main-color-light;
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "global": {
+        
+    },
+    "nav": {
+        "home": "Home",
+        "store": "Store",
+        "contact": "Contact"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "desc": "Any question or remark ? Just write us message !",
+        "card": {
+            "title": "Contact Informations",
+            "desc": "Fill this form and we'll come back to you as soon as possible."
+        },
+        "form": {
+            "firstName": "First name",
+            "lastName": "Last Name",
+            "phone": "Phone",
+            "messagePlaceholder": "Hi, I'm contacting you to let you know...",
+            "submit": "Send Message"
+        }
+    }
+}

@@ -12,11 +12,19 @@
             display: flex;
             align-items: center;
 
+            h1 {
+                font-size: 1.4vw;
+            }
+
             svg {
-                width: 3.5vw;
-                height: 3.5vw;
+                width: 2.8vw;
+                height: 2.8vw;
                 margin-right: .5vw;
             }
+        }
+
+        a {
+            color: $dark-color;
         }
 
         .buttons {
@@ -44,6 +52,8 @@
                         cursor: pointer;
                         transition: .1s ease;
                     }
+
+                    &#language_icon { border-radius: 0; }
 
                     &#dark-mode_icon {
                         transition: .1s ease;  
