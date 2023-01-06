@@ -1,0 +1,25 @@
+{
+    "global": {
+        
+    },
+    "nav": {
+        "home": "Accueil",
+        "store": "Boutique",
+        "contact": "Contact"
+    },
+    "contact": {
+        "title": "Nous Contacter",
+        "desc": "Une question ? Une remarque ? Ecrivez-nous !",
+        "card": {
+            "title": "Informations de contact",
+            "desc": "Remplissez le formulaire, et nous vous joindrons dès que possible."
+        },
+        "form": {
+            "firstName": "Prénom",
+            "lastName": "Nom",
+            "phone": "Téléphone",
+            "messagePlaceholder": "Bonjour, je vous contact pour vous dire que...",
+            "submit": "Envoyer le message"
+        }
+    }
+}
