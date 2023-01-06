@@ -25,15 +25,15 @@
     --secondary-color: #DE681B;
     --secondary-color-dark: #C65D19;
 
-    --light-color: #FAFAFA;
-    --light-gray-color: #e3e3e3;
+    --light-color: #1C1C1C;
+    --light-gray-color: #3a3a3a;
     --gray-color: #C6C6C6;
-    --dark-color: #1C1C1C;
+    --dark-color: #FAFAFA;
 }
 
 //// ==> SCSS Variables
 
-// Colors
+// Dynamic Colors - Dark Mode
 
 $main-color-light: var(--main-color-light);
 $main-color: var(--main-color);
@@ -48,6 +48,10 @@ $light-color: var(--light-color);
 $light-gray-color: var(--light-gray-color);
 $gray-color: var(--gray-color);
 $dark-color: var(--dark-color);
+
+// Static Colors - Constants
+
+$static-light-color: #FAFAFA;
 
 // Other
 

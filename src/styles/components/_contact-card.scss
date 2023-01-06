@@ -9,7 +9,7 @@
     min-height: 30vw;
     padding: 2vw;
 
-    color: $light-color;
+    color: $static-light-color;
     background-color: $main-color-darker;
 
     .header {
@@ -31,8 +31,6 @@
                 width: 1.35vw;
                 height: 1.35vw;
                 margin-right: 1.5vw;
-
-                color: $light-color;
             }
         }
     }
