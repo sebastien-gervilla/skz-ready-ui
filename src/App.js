@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Store from "./pages/Store";
+import Contact from "./pages/Contact";
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/store" element={<Store />} />
                 <Route path="/contact" element={<Contact />} />
                 
                 <Route path="*" element={fallback()} />
