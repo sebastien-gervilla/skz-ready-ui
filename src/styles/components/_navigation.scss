@@ -11,6 +11,20 @@ nav.navigation {
 
         li {
             margin: 0 2vw;
+
+            a {
+                transition: $main-transition;
+
+                &:hover {
+                    color: $main-color;
+
+                    transition: $main-transition;
+                }
+
+                &.currentPath {
+                    color: $main-color;
+                }
+            }
         }
     }
 }
